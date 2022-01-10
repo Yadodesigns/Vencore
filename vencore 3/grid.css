@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'montserrat';
+    font-weight: 600;
+    scroll-behavior: smooth;
+}
+
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:0.1fr 0.1fr 0.5fr 0.7fr 0.5fr 0.2fr 0.4fr 0.1fr ;
+    height: 200vh;
+    grid-template-areas: 
+    "banner banner top top"
+    "logo logo nav nav"
+    "img img img img"
+    "body body body body"
+    "serv serv serv serv"
+    "contact contact contact contact"
+    "log log col1 col2"
+    "foot foot foot foot";
+}
+
+#banner {
+    grid-area: banner;
+    background-color: #92BCE4;
+
+}
+
+#top{
+    grid-area: top;
+    background-color: #92BCE4;
+
+}
+
+#logo{
+    grid-area: logo;
+
+}
+
+#nav{
+    grid-area: nav;
+
+}
+
+#img{
+    grid-area: img;
+
+}
+
+#body{
+    grid-area: body;
+
+}
+
+
+
+#services{
+    grid-area: serv;
+
+}
+
+
+
+
+#contact{
+    grid-area: contact;
+
+}
+
+#log{
+    grid-area: log;
+
+}
+
+#col1{
+    grid-area: col1;
+
+}
+
+#col2{
+    grid-area: col2;
+
+}
+
+#foot{
+    grid-area: foot;
+    background-color: #92BCE4;
+}
+
+
+
+@media only screen and (max-width: 800px){
+
+    #logo{
+        display: none !important;
+    }
+
+    #nav {
+        font-size: 50%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    #nav button {
+    }
+
+    #col1 h1{
+        font-size: 50% !important;
+
+    }
+
+    #log {
+        width: 150%;
+    }
+
+    #col2 h1{
+        font-size: 50% !important;
+    }
+
+    #banner h1{
+        font-size: 110%;
+    }
+
+    #banner img{
+        display: none;
+    }
+
+    #top h1{
+        font-size: 80% !important;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows:0.1fr 0.1fr 0.5fr 0.7fr 0.5fr 0.2fr 0.4fr 0.1fr ;
+        height: 200vh;
+        grid-template-areas: 
+        "banner banner top top"
+        "nav nav nav nav"
+        "img img img img"
+        "body body body body"
+        "serv serv serv serv"
+        "contact contact contact contact"
+        "log log col1 col2"
+        "foot foot foot foot";
+
+}
