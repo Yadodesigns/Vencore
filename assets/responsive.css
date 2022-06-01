@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px){
+
+nav img{
+    width: 50%;
+}
+nav ul li{
+    font-size: 100% !important;
+}
+#list h1{
+    font-size: 100% !important;
+}
+.background img{
+    width: 100%;
+}
+.banner h1{
+    font-size: 100%;
+}
+nav ul{
+    display: none;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 50%;
+    margin-top: 4rem;
+}
+#priv{
+display: none;}
+nav {
+    justify-content: center;
+}
+footer h1{
+    font-size: 90% !important;
+}
+.banner{
+justify-content: center;
+}
+#list{
+    padding: 4rem;
+}
+#list ul li{
+    font-size: 50%;
+}
+.lowerlist img{
+    display: none;
+}
+}
